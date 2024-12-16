@@ -58,7 +58,8 @@
     display: flex;
     flex: 1;
     flex-direction: row; 
-    gap: 100px
+    gap: 100px;
+    visibility: hidden;
 }
 
 #first_movie > img {
@@ -69,3 +70,37 @@
 #all_movies > img {
     width: 300px;
 }
+
+/* Fullscreen container to center the spinner */
+#spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+  }
+  
+  
+  #spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd; 
+    border-top: 5px solid #3498db; 
+    border-radius: 50%; 
+    animation: spin 1s linear infinite; 
+  }
+  
+  /* Keyframes for spinning animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  #poster_img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
