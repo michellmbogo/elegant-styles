@@ -1,17 +1,11 @@
 # Movie Tickets
 A sleek and user-friendly movie ticket booking website that allows users to browse available movies, view showtimes, check ticket availability, and purchase tickets online. Designed to enhance the movie-going experience, this platform makes booking tickets fast, simple, and convenient..
 ## Features
--User friendly interface
-
--Responsive design for mobile and desktop
-
--Adds items to a list
-
--Adds quantity of item to a list
-
--Marks Items as purchased
-
--edits items
+Browse Movies: Users can view a list of movies currently showing, complete with titles, posters, and descriptions.
+Detailed Movie Information: Each movie page displays runtime, showtimes, available tickets, and a synopsis.
+Dynamic Ticket Availability: Real-time updates on the number of tickets available for each movie.
+Secure Ticket Purchase: A streamlined process for booking tickets with a single click.
+Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
 ## Installation
 1. **Clone the repository**
