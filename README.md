@@ -1,5 +1,5 @@
 # Movie Tickets
-The Shopping List Website is a user-friendly platform designed to help users efficiently manage their shopping needs. It allows users to create, edit, and manage a personalized list of items for any shopping occasion. With features like item quantity tracking, a purchased toggle, and easy editing capabilities, this tool makes organizing and completing your shopping tasks seamless.
+A sleek and user-friendly movie ticket booking website that allows users to browse available movies, view showtimes, check ticket availability, and purchase tickets online. Designed to enhance the movie-going experience, this platform makes booking tickets fast, simple, and convenient..
 ## Features
 -User friendly interface
 
