@@ -4,7 +4,7 @@ A sleek and user-friendly movie ticket booking website that allows users to brow
 -Browse Movies: Users can view a list of movies currently showing, complete with titles, posters, and descriptions.
 
 
-Detailed Movie Information: Each movie page displays runtime, showtimes, available tickets, and a synopsis.
+-Detailed Movie Information: Each movie page displays runtime, showtimes, available tickets, and a synopsis.
 Dynamic Ticket Availability: Real-time updates on the number of tickets available for each movie.
 Secure Ticket Purchase: A streamlined process for booking tickets with a single click.
 Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
