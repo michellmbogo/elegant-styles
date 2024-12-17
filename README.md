@@ -20,7 +20,7 @@ git clone git@github.com:michellmbogo/Code-Challenge-Week-2.git
 ~~~
 2. **Navigate to the project directory**
 ~~~bash
-cd code-Challenge-week-2
+cd week-3-code-challenge
 ~~~
 3. Open index.html in your web browser
 
