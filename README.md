@@ -11,7 +11,7 @@ A sleek and user-friendly movie ticket booking website that allows users to brow
 
 -Secure Ticket Purchase: A streamlined process for booking tickets with a single click.
 
-Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
+-Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
 ## Installation
 1. **Clone the repository**
