@@ -16,7 +16,7 @@ A sleek and user-friendly movie ticket booking website that allows users to brow
 ## Installation
 1. **Clone the repository**
 ~~~bash
-git clone git@github.com:michellmbogo/Code-Challenge-Week-2.git
+git clone git@github.com:michellmbogo/week-3-code-challenge.git
 ~~~
 2. **Navigate to the project directory**
 ~~~bash
