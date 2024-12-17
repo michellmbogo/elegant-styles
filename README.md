@@ -9,7 +9,7 @@ A sleek and user-friendly movie ticket booking website that allows users to brow
 
 -Dynamic Ticket Availability: Real-time updates on the number of tickets available for each movie.
 
-Secure Ticket Purchase: A streamlined process for booking tickets with a single click.
+-Secure Ticket Purchase: A streamlined process for booking tickets with a single click.
 Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
 ## Installation
