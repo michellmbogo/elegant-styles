@@ -28,15 +28,19 @@ cd week-3-code-challenge
 Contributions are welcomed please follow the following steps:
 
 1. **Fork the repository**
-2. **Create a new branch**
+2. **Run the server locally using the following command**
+3. ~~~bash
+   json-server --watch db.json
+   ~~~
+4. **Create a new branch**
    ~~~bash
    git checkout -b feature/yourFeature
    ~~~
-3. **Commit your Changes**
+5. **Commit your Changes**
    ~~~bash
    git commit -m "Add a new feature"
    ~~~
-4. ** push to the branch**
+6. ** push to the branch**
   ~~~bash
    git push origin feature/YourFeatue
    ~~~
