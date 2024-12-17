@@ -1,4 +1,4 @@
-# Movie Tickets
+# Movie Tickets Website
 A sleek and user-friendly movie ticket booking website that allows users to browse available movies, view showtimes, check ticket availability, and purchase tickets online. Designed to enhance the movie-going experience, this platform makes booking tickets fast, simple, and convenient..
 ## Features
 -Browse Movies: Users can view a list of movies currently showing, complete with titles, posters, and descriptions.
