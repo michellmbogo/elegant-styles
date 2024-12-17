@@ -18,29 +18,30 @@ A sleek and user-friendly movie ticket booking website that allows users to brow
 ~~~bash
 git clone git@github.com:michellmbogo/week-3-code-challenge.git
 ~~~
-2. **Navigate to the project directory**
+2. **Run the server locally using the following command**
+   ~~~bash
+    json-server --watch db.json
+   ~~~
+3. **Navigate to the project directory**
 ~~~bash
 cd week-3-code-challenge
 ~~~
-3. Open index.html in your web browser
+4. Open index.html in your web browser
 
 ## Contributing
 Contributions are welcomed please follow the following steps:
 
 1. **Fork the repository**
-2. **Run the server locally using the following command**
-3. ~~~bash
-   json-server --watch db.json
-   ~~~
-4. **Create a new branch**
+
+2. **Create a new branch**
    ~~~bash
    git checkout -b feature/yourFeature
    ~~~
-5. **Commit your Changes**
+3. **Commit your Changes**
    ~~~bash
    git commit -m "Add a new feature"
    ~~~
-6. ** push to the branch**
+4. ** push to the branch**
   ~~~bash
    git push origin feature/YourFeatue
    ~~~
