@@ -4,7 +4,7 @@
             "id": "1",
             "name": "Luigi colorless",
             "category": "Men Sunglasses",
-            "price":"1800 KES",
+            "price":1800 ,
             "description":"Stylish and professional, these sunglasses feature a sleek design and UV-protected lenses, making them perfect for meetings and formal occasions. Their lightweight comfort and refined look seamlessly complement business attire.",
             "image": "images/men_image2.jpeg"
         },
@@ -29,6 +29,7 @@
             "id": "4",
             "name":"Vertigo Pink",
             "category":"ladies Sunglasses",
+            "price":"2000 KES",
             "description":"Add a touch of sophistication to your look with these stylish sunglasses. Featuring a chic design and UV-protected lenses, they’re perfect for enhancing your charm during casual outings or romantic dates.",
             "image":"images/ladies_image1.jpeg"
         },
@@ -36,6 +37,7 @@
              "id":"5",
              "name":"Celine Mosa Brown",
              "category":"ladies Sunglasses",
+             "price":"3000 KES",
              "description":"Refined and practical, these sunglasses feature a timeless design that pairs perfectly with business attire. Lightweight and UV-protected, they’re ideal for meetings, workdays, and formal events.",
              "image":"images/female sunnies.png"
         },
@@ -43,6 +45,7 @@
              "id":"6",
              "name":"Pearl Guan Gold ",
              "category":"ladies Sunglasses",
+             "price":"4500 KES",
              "description":"Stay stylish under the sun with these trendy sunglasses. Designed for comfort and UV protection, they’re perfect for relaxing by the beach or poolside in elegance.",
              "image":"images/ladies_beach sunnies.png"
         },
@@ -50,6 +53,7 @@
             "id":"7",
             "name":"cutie blue",
             "category":"Kids Sunglasses",
+            "price":"1000 KES",
             "description":"Designed for style and safety, these sunglasses feature UV-protected lenses and a durable, lightweight frame. Perfect for keeping little eyes shielded during outdoor adventures!",
             "image":"images/kids_sunnies1.png"
 
@@ -58,6 +62,7 @@
             "id":"8",
             "name":"fly orange black",
             "category":"Kids Sunglasses",
+            "price":"2500 KES",
             "description":"Keep your kids cool and protected with these vibrant sunglasses. Built with UV protection and a kid-friendly, durable design, they’re perfect for sunny playdays and adventures!",
             "image":"images/kids_sunnies2.png"
         }
@@ -65,7 +70,40 @@
 
     "cart": [
         {
+          "glass_id" : "1",
+          "count" : 4,
+           "total_price":7200
+        },
+        {
+            "glass_id": "8",
+            "count": 2,
+            "total_price":5000
+        },
+        {
+            "glass_id":"6",
+            "count":3,
+            "total_price":13500
+        }
+    ],
 
+    "wishlist":[
+        {
+            "glass_id":"2"
+
+        },
+        {
+            "glass_id":"3"
+
+        },
+        {
+            "glass_id":"5"
         }
     ]
-} 
+
+
+
+
+
+
+
+}   

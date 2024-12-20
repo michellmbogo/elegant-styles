@@ -1,17 +1,51 @@
 #navbar {
-    background-color:lightsalmon;
-    padding: 100px, 100px;
+    background-color: lightsalmon;
+    padding: 20px 50px; /* Adjust the padding as needed */
     color: white;
-    text-align: center;
     height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between items */
+    position: relative; /* To center logo absolutely */
 }
+
+#nav_logo {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    left: 50%; /* Position in the middle horizontally */
+    transform: translateX(-50%); /* Offset to truly center the logo */
+
+}
+
+#title {
+    position: absolute;
+    color: white;
+    font-size: 50px; /* Adjust font size */
+    
+}
+
+.navbar-menu {
+    display: flex; /* Use Flexbox for the menu */
+    gap: 20px; /* Add spacing between menu items */
+    margin-left: auto; /* Push the menu to the far right */
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    background-color: darkorange;
+    color: black;
+}
+
 #footer {
-    background-color:lightsalmon;
+    background-color: lightsalmon;
     justify-content: center;
     padding: 5px 5px;
     text-align: center;
@@ -20,26 +54,28 @@
     width: 98%;
     bottom: 0%;
 }
-#nav_logo {
-    width: 50px;
-    height: auto;
-}
+
 #search {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
     width: 50%;
     justify-content: center;
+    margin: 0 auto;
+}
+
+#poster {
+    width: 1000px;
+    height: 500px;
+    margin-top:20px;
+    text-align: center;
+    display:flex;
+    margin: auto;
 }
 #submit-button {
-    background-color:lightsalmon;
-    height: 40px;
-    color: black;
-    border-radius: 4px;
-    
-    font-size: 16px;
-}
-#poster {
-    width: 600px;
-    height:400px
+    display: flex;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
 }
