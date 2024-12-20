@@ -15,3 +15,21 @@
 -Wide Selection: Explore an extensive range of sunglasses, including chic designs for ladies, sophisticated styles for men, and fun, protective options for kids.
 
 ## Installation
+1. **Clone the repository**
+~~~bash
+git clone git@github.com:michellmbogo/elegant-styles.git
+~~~
+2. **Run the server locally using the following command**
+   ~~~bash
+    json-server --watch db.json
+   ~~~
+3. **Navigate to the project directory**
+~~~bash
+cd week-3-code-challenge
+~~~
+4. Open index.html in your web browser
+
+##Contribution
+Contributions are welcome! Please follow this steps
+
+
