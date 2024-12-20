@@ -14,7 +14,6 @@
                         <li><a href=""> Contact us</a></li>
                     
                     </ul>
-            
                 <div>
                     <img src="./images/sunnies_logo.webp" id="nav_logo"/>
                 </div>
@@ -23,14 +22,73 @@
         </header>
         <main>
             <div>
-                <img src="./images/poster_1.jpg" id="poster"/>
+                <img src="./images/poster_1.webp" id="poster"/>
             </div>
-            <section>
+            <!-- <section>
             <form id="search">
                 <input type="text" name="item" id="search" placeholder="Search Item" />
                 <button type="submit" id="submit-button">Submit</button>
             </form >
+            </section> -->
+            <section class="categories-section">
+                <h2>Categories</h2>
+                <div class="search-group">
+                    <input type="text" placeholder="Search categories...">
+                    <button class="search-btn">Search</button>
+                </div>
+                <button class="filter-btn">Filter</button>
             </section>
+
+            <section>
+                <h2>Categories</h2>
+                <section>
+                    <h3>Men</h3>
+                    <section class="card-container" id="Men">
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Ladies</h3>
+                    <section class="card-container" id="Ladies">
+                    </section>
+                </section>
+
+                <section>
+                    <h3>kids</h3>
+                    <section class="card-container" id="Kids">
+                    </section>
+                </section>
+            </section>
+
+            <!-- Cart Section -->
+    <div class="section cart">
+        <h2>Cart</h2>
+        <section id="cart" />
+    </div>
+
+    <!-- Wishlist Section -->
+    <div class="section wishlist">
+        <h2>Wishlist</h2>
+        <section id="wishlist" />
+   </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+            
+
         </main>
         <footer id="footer">
             <p>&copy; 2024 by Michell Mbogo. All rights reserved</p>

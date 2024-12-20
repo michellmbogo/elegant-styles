@@ -1,34 +1,43 @@
 #navbar {
-    background-color: lightsalmon;
-    padding: 20px 50px; /* Adjust the padding as needed */
+    background-color: lightseagreen;
+    padding: 20px 50px;
+    /* Adjust the padding as needed */
     color: white;
     height: 100px;
-    display: flex; /* Use Flexbox */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between items */
-    position: relative; /* To center logo absolutely */
+    display: flex;
+    /* Use Flexbox */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space between items */
+    position: relative;
+    /* To center logo absolutely */
 }
 
 #nav_logo {
     width: 75px;
     height: auto;
-    position: absolute;
-    left: 50%; /* Position in the middle horizontally */
-    transform: translateX(-50%); /* Offset to truly center the logo */
-
+    margin-left: auto;
 }
 
 #title {
     position: absolute;
+    ;
     color: white;
-    font-size: 50px; /* Adjust font size */
-    
+    font-size: 50px;
+    /* Adjust font size */
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .navbar-menu {
-    display: flex; /* Use Flexbox for the menu */
-    gap: 20px; /* Add spacing between menu items */
-    margin-left: auto; /* Push the menu to the far right */
+    display: flex;
+    /* Use Flexbox for the menu */
+    gap: 20px;
+    /* Add spacing between menu items */
+    margin-left: auto;
+    /* Push the menu to the far right */
 }
 
 .navbar-menu a {
@@ -40,19 +49,16 @@
 }
 
 .navbar-menu a:hover {
-    background-color: darkorange;
+    background-color: lightskyblue;
     color: black;
 }
 
 #footer {
-    background-color: lightsalmon;
+    background-color: lightseagreen;
     justify-content: center;
     padding: 5px 5px;
     text-align: center;
     color: white;
-    position: absolute;
-    width: 98%;
-    bottom: 0%;
 }
 
 #search {
@@ -67,15 +73,259 @@
 #poster {
     width: 1000px;
     height: 500px;
-    margin-top:20px;
+    margin-top: 20px;
     text-align: center;
-    display:flex;
+    display: flex;
     margin: auto;
 }
+
 #submit-button {
     display: flex;
     text-align: center;
     height: 30px;
     width: 60px;
     margin-top: 20px;
+}
+
+.categories-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.categories-section h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.categories-section .search-group {
+    display: flex;
+    align-items: center;
+}
+
+.categories-section input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.categories-section button {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.categories-section .search-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.categories-section .filter-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.categories-section button:hover {
+    opacity: 0.9;
+}
+
+.categories-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.categories-section h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.categories-section .search-group {
+    display: flex;
+    align-items: center;
+}
+
+.categories-section input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.categories-section button {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.categories-section .search-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.categories-section .filter-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.categories-section button:hover {
+    opacity: 0.9;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-body p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.card-body .price {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2em;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.card-footer button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-footer button:hover {
+    background-color: #218838;
+}
+
+
+.section {
+    width: 45%;
+    padding: 20px;
+
+    border-radius: 8px;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+.cart img,
+.wishlist img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    margin: 16px;
+}
+
+.item img {
+    width: 100px;
+}
+
+.contact-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
