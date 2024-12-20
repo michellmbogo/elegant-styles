@@ -1,0 +1,45 @@
+#navbar {
+    background-color:lightsalmon;
+    padding: 100px, 100px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+#footer {
+    background-color:lightsalmon;
+    justify-content: center;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 98%;
+    bottom: 0%;
+}
+#nav_logo {
+    width: 50px;
+    height: auto;
+}
+#search {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    justify-content: center;
+}
+#submit-button {
+    background-color:lightsalmon;
+    height: 40px;
+    color: black;
+    border-radius: 4px;
+    
+    font-size: 16px;
+}
+#poster {
+    width: 600px;
+    height:400px
+}
