@@ -29,7 +29,31 @@ cd week-3-code-challenge
 ~~~
 4. Open index.html in your web browser
 
-##Contribution
+## Contribution
 Contributions are welcome! Please follow this steps
+1. **Fork the repository**
+
+2. **Create a new branch**
+   ~~~bash
+   git checkout -b feature/yourFeature
+   ~~~
+3. **Commit your Changes**
+   ~~~bash
+   git commit -m "Add a new feature"
+   ~~~
+4. ** push to the branch**
+  ~~~bash
+   git push origin feature/YourFeatue
+   ~~~
+5. **Open a pull request**
+
+## License
+
+Distributed under the MIT license
+
+## Contact
+
+Name : Michell mbogo
+Email : michellwambui.m@gmail.com
 
 
