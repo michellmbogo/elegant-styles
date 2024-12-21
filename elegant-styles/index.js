@@ -425,6 +425,7 @@ function addToCart(glassId) {
           if (!response.ok) {
             throw new Error("Failed to add item to cart");
           }
+          location.reload();
           alert(`${glass.name} has been added to your cart.`);
         })
         .catch((error) => {
@@ -448,6 +449,7 @@ function removeFromcart(id) {
       if (!response.ok) {
         throw new Error("Failed to remove item from cart");
       }
+      location.reload();
       alert(`${glass.name} has been removed from your cart.`);
     })
     .catch((error) => {
@@ -469,6 +471,7 @@ function updateItemsCount(glassId, newCount) {
       if (!response.ok) {
         throw new Error("Failed to update count");
       }
+      location.reload();
       return response.json();
     })
     .then((updatedItem) => {
@@ -519,6 +522,7 @@ function addToWishlist(glassId) {
           if (!response.ok) {
             throw new Error("Failed to add item to wishlist");
           }
+          location.reload();
           alert(`${glass.name} has been added to your wishlist.`);
         })
         .catch((error) => {
@@ -542,6 +546,8 @@ function removeFromWishlist(id) {
           if (!response.ok) {
             throw new Error("Failed to remove item from wishlist");
           }
+          location.reload();
+
           alert(`${glass.name} has been removed from your wishlist.`);
         })
         .catch((error) => {
