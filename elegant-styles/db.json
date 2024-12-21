@@ -65,39 +65,6 @@
       "image": "images/kids_sunnies2.png"
     }
   ],
-  "cart": [
-    {
-      "id": "73c5",
-      "glass_id": "2",
-      "count": 1,
-      "price": 2500,
-      "name": "Mosa Black",
-      "image": "images/men_image5.jpeg"
-    },
-    {
-      "id": "c848",
-      "glass_id": "4",
-      "count": 1,
-      "price": 2000,
-      "name": "Vertigo Pink",
-      "image": "images/ladies_image1.jpeg"
-    },
-    {
-      "id": "e264",
-      "glass_id": "1",
-      "count": 1,
-      "price": 1800,
-      "name": "Luigi colorless",
-      "image": "images/men_image2.jpeg"
-    },
-    {
-      "id": "815c",
-      "glass_id": "5",
-      "count": 2,
-      "price": "3000 KES",
-      "name": "Celine Mosa Brown",
-      "image": "images/female sunnies.png"
-    }
-  ],
+  "cart": [],
   "wishlist": []
 }

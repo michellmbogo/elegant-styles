@@ -464,3 +464,14 @@ cart-button, .cart-button:hover {
   #search-results {
     display: none;
   }
+  .search-group {
+    display: flex; /* Use flexbox for alignment */
+
+  align-items: center;
+  justify-content: center; 
+  row-gap: 20px;
+  }
+  #search-input {
+    margin-top: 15px;
+    width: 250px;
+  }
