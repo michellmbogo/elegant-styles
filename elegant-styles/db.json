@@ -1,127 +1,103 @@
 {
-    "glasses":[
-        {
-            "id": "1",
-            "name": "Luigi colorless",
-            "category": "Men",
-            "price":1800 ,
-            "description":"Stylish and professional, these sunglasses feature a sleek design and UV-protected lenses, making them perfect for meetings and formal occasions. Their lightweight comfort and refined look seamlessly complement business attire.",
-            "image": "images/men_image2.jpeg"
-        },
-        {
-
-            "id": "2",
-            "name": "Mosa Black",
-            "category":"Men",
-            "price":2500 ,
-            "description":"Trendy and versatile, these sunglasses add a touch of charm to any casual or romantic outing. With comfortable frames and UV-protected lenses, they’re perfect for sunny hangouts or stylish date nights.",
-            "image":"images/men_image5.jpeg"
-        },
-        {
-            "id": "3",
-            "name": "Anarchy Gold Black",
-            "category":"Men",
-            "price":3500,
-            "description": "Designed for sunny adventures, these sunglasses feature polarized lenses for glare reduction and UV protection. Their lightweight, water-friendly design makes them perfect for relaxing by the beach or pool in style.",
-            "image":"images/men_image7.jpeg"
-        },
-        {
-            "id": "4",
-            "name":"Vertigo Pink",
-            "category":"Ladies ",
-            "price":2000,
-            "description":"Add a touch of sophistication to your look with these stylish sunglasses. Featuring a chic design and UV-protected lenses, they’re perfect for enhancing your charm during casual outings or romantic dates.",
-            "image":"images/ladies_image1.jpeg"
-        },
-        {
-             "id":"5",
-             "name":"Celine Mosa Brown",
-             "category":"Ladies",
-             "price":"3000 KES",
-             "description":"Refined and practical, these sunglasses feature a timeless design that pairs perfectly with business attire. Lightweight and UV-protected, they’re ideal for meetings, workdays, and formal events.",
-             "image":"images/female sunnies.png"
-        },
-        {
-             "id":"6",
-             "name":"Pearl Guan Gold ",
-             "category":"Ladies ",
-             "price":4500 ,
-             "description":"Stay stylish under the sun with these trendy sunglasses. Designed for comfort and UV protection, they’re perfect for relaxing by the beach or poolside in elegance.",
-             "image":"images/ladies_beach sunnies.png"
-        },
-        {
-            "id":"7",
-            "name":"cutie blue",
-            "category":"Kids",
-            "price":1000 ,
-            "description":"Designed for style and safety, these sunglasses feature UV-protected lenses and a durable, lightweight frame. Perfect for keeping little eyes shielded during outdoor adventures!",
-            "image":"images/kids_sunnies1.png"
-
-        },
-        {
-            "id":"8",
-            "name":"fly orange black",
-            "category":"Kids",
-            "price":2500 ,
-            "description":"Keep your kids cool and protected with these vibrant sunglasses. Built with UV protection and a kid-friendly, durable design, they’re perfect for sunny playdays and adventures!",
-            "image":"images/kids_sunnies2.png"
-        }
-    ],
-
-    "cart": [
-        {
-          "glass_id" : "1",
-          "count" : 4,
-          "price":1800,
-          "image":"images/men_image2.jpeg",
-          "name":"Luigi colorless"
-        },
-        {
-            "glass_id": "8",
-            "count": 2,
-            "price":500,
-            "image":"images/kids_sunnies2.png",
-            "name":"fly orange black"
-            
-        },
-        {
-            "glass_id":"6",
-            "count":3,
-            "price":4500,
-            "image":"images/ladies_beach sunnies.png",
-            "name":"Pearl Guan Gold "
-            
-        }
-    ],
-
-    "wishlist":[
-        {
-            "glass_id":"2",
-            "image":"images/men_image5.jpeg",
-            "name":"Mosa Black",
-            "price": 2500 
-        },
-        {
-            "glass_id":"3",
-            "image":"images/men_image7.jpeg",
-            "name":"Anarchy Gold Black",
-            "price":3500
-
-
-        },
-        {
-            "glass_id":"5",
-
-            "image":"images/female sunnies.png",
-            "name":"Celine Mosa Brown",
-            "price":3000
-        }
-    ]
-
-
-
-
-
-
-
-}   
+  "glasses": [
+    {
+      "id": "1",
+      "name": "Luigi colorless",
+      "category": "Men",
+      "price": 1800,
+      "description": "Stylish and professional, these sunglasses feature a sleek design and UV-protected lenses, making them perfect for meetings and formal occasions. Their lightweight comfort and refined look seamlessly complement business attire.",
+      "image": "images/men_image2.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Mosa Black",
+      "category": "Men",
+      "price": 2500,
+      "description": "Trendy and versatile, these sunglasses add a touch of charm to any casual or romantic outing. With comfortable frames and UV-protected lenses, they’re perfect for sunny hangouts or stylish date nights.",
+      "image": "images/men_image5.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Anarchy Gold Black",
+      "category": "Men",
+      "price": 3500,
+      "description": "Designed for sunny adventures, these sunglasses feature polarized lenses for glare reduction and UV protection. Their lightweight, water-friendly design makes them perfect for relaxing by the beach or pool in style.",
+      "image": "images/men_image7.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Vertigo Pink",
+      "category": "Ladies",
+      "price": 2000,
+      "description": "Add a touch of sophistication to your look with these stylish sunglasses. Featuring a chic design and UV-protected lenses, they’re perfect for enhancing your charm during casual outings or romantic dates.",
+      "image": "images/ladies_image1.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Celine Mosa Brown",
+      "category": "Ladies",
+      "price": 3000,
+      "description": "Refined and practical, these sunglasses feature a timeless design that pairs perfectly with business attire. Lightweight and UV-protected, they’re ideal for meetings, workdays, and formal events.",
+      "image": "images/female sunnies.png"
+    },
+    {
+      "id": "6",
+      "name": "Pearl Guan Gold ",
+      "category": "Ladies",
+      "price": 4500,
+      "description": "Stay stylish under the sun with these trendy sunglasses. Designed for comfort and UV protection, they’re perfect for relaxing by the beach or poolside in elegance.",
+      "image": "images/ladies_beach sunnies.png"
+    },
+    {
+      "id": "7",
+      "name": "cutie blue",
+      "category": "Kids",
+      "price": 1000,
+      "description": "Designed for style and safety, these sunglasses feature UV-protected lenses and a durable, lightweight frame. Perfect for keeping little eyes shielded during outdoor adventures!",
+      "image": "images/kids_sunnies1.png"
+    },
+    {
+      "id": "8",
+      "name": "fly orange black",
+      "category": "Kids",
+      "price": 2500,
+      "description": "Keep your kids cool and protected with these vibrant sunglasses. Built with UV protection and a kid-friendly, durable design, they’re perfect for sunny playdays and adventures!",
+      "image": "images/kids_sunnies2.png"
+    }
+  ],
+  "cart": [
+    {
+      "id": "73c5",
+      "glass_id": "2",
+      "count": 1,
+      "price": 2500,
+      "name": "Mosa Black",
+      "image": "images/men_image5.jpeg"
+    },
+    {
+      "id": "c848",
+      "glass_id": "4",
+      "count": 1,
+      "price": 2000,
+      "name": "Vertigo Pink",
+      "image": "images/ladies_image1.jpeg"
+    },
+    {
+      "id": "e264",
+      "glass_id": "1",
+      "count": 1,
+      "price": 1800,
+      "name": "Luigi colorless",
+      "image": "images/men_image2.jpeg"
+    },
+    {
+      "id": "815c",
+      "glass_id": "5",
+      "count": 2,
+      "price": "3000 KES",
+      "name": "Celine Mosa Brown",
+      "image": "images/female sunnies.png"
+    }
+  ],
+  "wishlist": []
+}
